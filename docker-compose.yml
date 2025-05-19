@@ -77,7 +77,7 @@ services:
 #          memory: 512M
 
   diagnosing-server:
-    image: callmenaul/alzheimer-diagnosing-server:v2.0
+    image: callmenaul/alzheimer-diagnosing-server:v4.0
     container_name: alzheimer-diagnosing-server
     environment:
       PYTHONUNBUFFERED: 1
