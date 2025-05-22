@@ -48,7 +48,7 @@ services:
 #          memory: 512M
 
   app:
-    image: callmenaul/alzheimer-app:v74.0
+    image: callmenaul/alzheimer-app:v77.0
     container_name: alzheimer-app
     environment:
       NODE_ENV: production
