@@ -22,7 +22,7 @@ services:
 #      retries: 5
 
   backend:
-    image: callmenaul/alzheimer-backend:v2.0
+    image: callmenaul/alzheimer-backend:v9.0
     container_name: alzheimer-backend
     environment:
       NODE_ENV: production
