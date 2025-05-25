@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   postgres:
-    image: callmenaul/alzheimer-postgres:v1.0
+    image: callmenaul/alzheimer-postgres:v2.0
     container_name: alzheimer-postgres
     environment:
       POSTGRES_USER: postgres
