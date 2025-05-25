@@ -22,7 +22,7 @@ services:
 #      retries: 5
 
   backend:
-    image: callmenaul/alzheimer-backend:v9.0
+    image: callmenaul/alzheimer-backend:v1.0
     container_name: alzheimer-backend
     environment:
       NODE_ENV: production
@@ -48,7 +48,7 @@ services:
 #          memory: 512M
 
   app:
-    image: callmenaul/alzheimer-app:v5.0
+    image: callmenaul/alzheimer-app:v1.0
     container_name: alzheimer-app
     environment:
       NODE_ENV: production
