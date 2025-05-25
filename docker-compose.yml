@@ -17,7 +17,7 @@ services:
       - "5432:5432"
 
   backend:
-    image: callmenaul/alzheimer-backend:v15.0
+    image: callmenaul/alzheimer-backend:v22.0
     container_name: alzheimer-backend
     environment:
       NODE_ENV: production
