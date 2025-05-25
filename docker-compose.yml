@@ -56,7 +56,7 @@ services:
       - "80:80"
 
   diagnosing-server:
-    image: callmenaul/alzheimer-diagnosing-server:v26.0
+    image: callmenaul/alzheimer-diagnosing-server:v27.0
     container_name: alzheimer-diagnosing-server
     environment:
       PYTHONUNBUFFERED: 1
